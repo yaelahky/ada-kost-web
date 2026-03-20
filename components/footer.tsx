@@ -1,6 +1,6 @@
 "use client"
 
-import { MapPin, Phone, Instagram, Facebook } from "lucide-react"
+import { MapPin, Phone, Instagram } from "lucide-react"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 export function Footer() {
@@ -36,16 +36,13 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-3">
               <a
-                href="#"
+                href="https://www.instagram.com/adakost.tuban"
+                aria-label="Instagram ADA Kost Tuban"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#374151] flex items-center justify-center hover:bg-[#4B5563] transition-colors"
               >
                 <Instagram className="w-4 h-4 text-gray-300" />
-              </a>
-              <a
-                href="#"
-                className="w-9 h-9 rounded-full bg-[#374151] flex items-center justify-center hover:bg-[#4B5563] transition-colors"
-              >
-                <Facebook className="w-4 h-4 text-gray-300" />
               </a>
             </div>
           </div>
