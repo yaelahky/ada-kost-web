@@ -37,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body className={`${plusJakarta.variable} font-sans antialiased`}>
         {children}
         <Analytics />
