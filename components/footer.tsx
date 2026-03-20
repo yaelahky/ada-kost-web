@@ -17,7 +17,7 @@ export function Footer() {
   return (
     <footer className="bg-[#1F2937] pt-12 pb-6">
       <div 
-        ref={ref}
+        ref={ref as React.RefObject<HTMLDivElement>}
         className={`max-w-5xl mx-auto px-4 md:px-6 transition-all duration-700 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
@@ -72,13 +72,13 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-4">Kontak</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <MapPin className="w-4 h-4 text-[#5046E5] flex-shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-[#5046E5] shrink-0 mt-0.5" />
                 <span className="text-gray-400 text-sm">
                   Jl. Sunan Kudus III No.2A, Latsari, Tuban
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-[#5046E5] flex-shrink-0" />
+                <Phone className="w-4 h-4 text-[#5046E5] shrink-0" />
                 <span className="text-gray-400 text-sm">+62 812-3456-7890</span>
               </li>
             </ul>
@@ -88,7 +88,7 @@ export function Footer() {
         {/* Divider & Copyright */}
         <div className="border-t border-gray-700 pt-6">
           <p className="text-center text-gray-500 text-sm">
-            © 2024 ADA Kost Latsari Tuban. All rights reserved.
+            © 2026 ADA Kost Latsari Tuban. All rights reserved.
           </p>
         </div>
       </div>
