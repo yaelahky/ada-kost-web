@@ -69,7 +69,7 @@ export function Location() {
 
             {/* Google Maps Link */}
             <a
-              href="https://maps.google.com/?q=Jl.+Sunan+Kudus+III+No.2A,+Latsari,+Tuban"
+              href="https://maps.app.goo.gl/FEd6EyojYHw7KofLA"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-[#5046E5] font-medium hover:underline"
