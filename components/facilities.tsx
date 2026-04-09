@@ -1,6 +1,6 @@
 "use client"
 
-import { Shield, Zap, Wifi, Wind, Bath, Car, Sun, UtensilsCrossed, Sofa, Home } from "lucide-react"
+import { Shield, Zap, Wifi, Wind, Bath, Car, Sun, UtensilsCrossed, Sofa, Home, Building2 } from "lucide-react"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const roomFacilities = [
@@ -119,9 +119,7 @@ export function Facilities() {
           {/* Right Column - Common Facilities */}
           <div className="bg-card rounded-2xl p-6 lg:p-8 border border-border">
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-5 h-5 rounded-full bg-[#34C77B] flex items-center justify-center">
-                <span className="text-white text-xs font-bold">+</span>
-              </div>
+              <Building2 className="w-5 h-5 text-[#5046E5]" />
               <h3 className="font-semibold text-foreground text-lg">Fasilitas Umum</h3>
             </div>
             <div className="space-y-6">
