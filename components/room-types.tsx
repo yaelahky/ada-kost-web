@@ -126,7 +126,12 @@ export function RoomTypes() {
 
                 {/* CTA Button */}
                 <button
-                  onClick={() => window.open("https://wa.me/6282231509025", "_blank")}
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/6282231509025?text=Halo%20kak%20saya%20mau%20tanya%20kost%2C%20dapat%20kontaknya%20dari%20Web",
+                      "_blank",
+                    )
+                  }
                   className="w-full flex items-center justify-center gap-2 bg-[#34C77B] hover:bg-[#2DB36E] text-white font-semibold py-3.5 px-6 rounded-xl transition-colors"
                 >
                   <svg

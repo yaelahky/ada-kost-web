@@ -60,7 +60,7 @@ export function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/6282231509025"
+                href="https://wa.me/6282231509025?text=Halo%20kak%20saya%20mau%20tanya%20kost%2C%20dapat%20kontaknya%20dari%20Web"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#34C77B] hover:bg-[#2DB36E] text-white font-semibold rounded-full transition-all hover:scale-[1.02] hover:shadow-lg"

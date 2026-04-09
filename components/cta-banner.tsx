@@ -23,7 +23,7 @@ export function CTABanner() {
             </p>
           </div>
           <a
-            href="https://wa.me/6282231509025"
+            href="https://wa.me/6282231509025?text=Halo%20kak%20saya%20mau%20tanya%20kost%2C%20dapat%20kontaknya%20dari%20Web"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-shrink-0 inline-flex items-center gap-2 bg-white text-[#1F2937] font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors"

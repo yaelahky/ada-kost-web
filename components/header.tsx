@@ -41,7 +41,7 @@ export function Header() {
           {/* CTA Button */}
           <div className="hidden lg:flex">
             <a
-              href="https://wa.me/6282231509025"
+              href="https://wa.me/6282231509025?text=Halo%20kak%20saya%20mau%20tanya%20kost%2C%20dapat%20kontaknya%20dari%20Web"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#34C77B] hover:bg-[#2DB36E] text-white font-semibold rounded-lg transition-colors"
@@ -76,7 +76,7 @@ export function Header() {
                 </a>
               ))}
               <a
-                href="https://wa.me/6282231509025"
+                href="https://wa.me/6282231509025?text=Halo%20kak%20saya%20mau%20tanya%20kost%2C%20dapat%20kontaknya%20dari%20Web"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-5 py-3 bg-[#34C77B] hover:bg-[#2DB36E] text-white font-semibold rounded-lg transition-colors mt-2"
