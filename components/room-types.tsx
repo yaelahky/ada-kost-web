@@ -22,7 +22,7 @@ const rooms = [
   {
     name: "Large Room",
     size: "Ukuran 4×4 Meter + AC",
-    price: "Rp800.000",
+    price: "Rp900.000",
     badge: "Populer",
     badgeStyle: "bg-[#5046E5] text-white",
     image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&h=600&fit=crop",
