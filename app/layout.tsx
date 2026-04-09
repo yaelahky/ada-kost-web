@@ -7,7 +7,7 @@ const plusJakarta = Plus_Jakarta_Sans({
   variable: '--font-plus-jakarta',
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://adakosttuban.com'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://adakost.my.id'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

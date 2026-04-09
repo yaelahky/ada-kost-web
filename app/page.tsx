@@ -9,7 +9,7 @@ import { CTABanner } from "@/components/cta-banner"
 import { Footer } from "@/components/footer"
 import { WhatsAppFAB } from "@/components/whatsapp-fab"
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://adakosttuban.com"
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://adakost.my.id"
 
 const faqItems = [
   {
