@@ -1,18 +1,37 @@
 "use client"
 
 import { MapPin, Shield, Sparkles, Image as ImageIcon, Star } from "lucide-react"
+import type { MouseEvent } from "react"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 export function Hero() {
   const { ref, isVisible } = useScrollAnimation()
+  
+  const handleScrollToRooms = (event: MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault()
+
+    const target = document.getElementById("tipe-kamar")
+    if (!target) return
+
+    const header = document.querySelector("header")
+    const headerHeight = header ? header.getBoundingClientRect().height : 0
+    const extraOffset = 16
+    const targetTop =
+      target.getBoundingClientRect().top + window.scrollY - headerHeight - extraOffset
+
+    window.scrollTo({
+      top: targetTop,
+      behavior: "smooth",
+    })
+  }
 
   return (
     <section 
       id="beranda" 
+      ref={ref}
       className="relative overflow-hidden bg-white"
     >
       <div 
-        ref={ref}
         className={`transition-all duration-700 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
@@ -70,6 +89,7 @@ export function Hero() {
               </a>
               <a
                 href="#tipe-kamar"
+                onClick={handleScrollToRooms}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-card border-2 border-border text-foreground font-semibold rounded-full transition-all hover:bg-secondary hover:border-muted-foreground/30"
               >
                 <ImageIcon className="w-5 h-5" />

@@ -41,7 +41,7 @@ export function RoomTypes() {
   return (
     <section 
       id="tipe-kamar"
-      className="py-16 md:py-24 bg-white"
+      className="scroll-mt-20 lg:scroll-mt-24 py-16 md:py-24 bg-white"
     >
       <div 
         ref={ref}
