@@ -73,7 +73,8 @@ export function Hero() {
 
             {/* Description */}
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              Nikmati kenyamanan tinggal seperti di rumah sendiri. Lingkungan aman, bersih, dan strategis dekat dengan pusat kota, kampus, dan area perkantoran.
+              ADA Kost adalah kost putri Tuban di area Latsari yang nyaman, aman,
+              dan strategis dekat pusat kota, kampus, serta area perkantoran.
             </p>
 
             {/* CTA Buttons */}

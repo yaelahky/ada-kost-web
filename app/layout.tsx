@@ -7,26 +7,40 @@ const plusJakarta = Plus_Jakarta_Sans({
   variable: '--font-plus-jakarta',
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://adakosttuban.com'
+
 export const metadata: Metadata = {
-  title: 'ADA Kost - Kost Putri Nyaman di Latsari Tuban',
-  description: 'Nikmati kenyamanan tinggal seperti di rumah sendiri. Lingkungan aman, bersih, dan strategis dekat dengan pusat kota, kampus, dan area perkantoran.',
-  generator: 'v0.app',
+  metadataBase: new URL(siteUrl),
+  title: 'Kost Putri Tuban | ADA Kost Latsari',
+  description:
+    'Kost putri Tuban nyaman, aman, dan strategis di Latsari. Harga sewa bulanan terjangkau dengan fasilitas lengkap untuk mahasiswi dan karyawati.',
+  keywords: [
+    'kost putri tuban',
+    'kos putri tuban',
+    'kost putri latsari tuban',
+    'sewa kost putri tuban',
+    'kost putri dekat unirow',
+  ],
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: 'Kost Putri Tuban | ADA Kost Latsari',
+    description:
+      'Kost putri Tuban nyaman, aman, dan strategis di Latsari. Cek kamar tersedia dan survei lokasi sekarang.',
+    url: '/',
+    siteName: 'ADA Kost Latsari',
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Kost Putri Tuban | ADA Kost Latsari',
+    description:
+      'Kost putri Tuban nyaman, aman, dan strategis di Latsari dengan fasilitas lengkap.',
+  },
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/icon.svg',
   },
 }
 

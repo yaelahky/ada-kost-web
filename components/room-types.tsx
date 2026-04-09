@@ -6,7 +6,7 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const rooms = [
   {
-    name: "Regular Room",
+    name: "Kamar Reguler",
     size: "Ukuran 3×3 Meter",
     price: "Rp500.000",
     badge: "Sisa 2 Kamar",
@@ -20,7 +20,7 @@ const rooms = [
     ],
   },
   {
-    name: "Large Room",
+    name: "Kamar Besar",
     size: "Ukuran 4×4 Meter + AC",
     price: "Rp900.000",
     badge: "Populer",
@@ -44,7 +44,7 @@ export function RoomTypes() {
       className="scroll-mt-20 lg:scroll-mt-24 py-16 md:py-24 bg-white"
     >
       <div 
-        ref={ref}
+        ref={ref as React.RefObject<HTMLDivElement>}
         className={`transition-all duration-700 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
@@ -53,11 +53,12 @@ export function RoomTypes() {
         {/* Section Header */}
         <div className="mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            Pilihan Kamar
+            Pilihan Kamar Kost Putri Tuban
           </h2>
           <p className="text-muted-foreground max-w-xl">
-            Pilih tipe kamar yang sesuai dengan kebutuhan dan budget Anda. Semua
-            kamar didesain untuk kenyamanan maksimal.
+            Pilih tipe kamar sesuai kebutuhan dan budget Anda. Tersedia opsi
+            sewa kost putri Tuban bulanan dengan fasilitas lengkap dan lingkungan
+            yang nyaman.
           </p>
         </div>
 

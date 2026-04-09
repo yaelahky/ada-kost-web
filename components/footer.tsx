@@ -12,6 +12,7 @@ export function Footer() {
     { label: "Tipe Kamar", href: "#tipe-kamar" },
     { label: "Fasilitas", href: "#fasilitas" },
     { label: "Lokasi", href: "#lokasi" },
+    { label: "FAQ", href: "#faq" },
   ]
 
   return (

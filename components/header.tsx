@@ -8,6 +8,7 @@ const navLinks = [
   { href: "#tipe-kamar", label: "Tipe Kamar" },
   { href: "#fasilitas", label: "Fasilitas" },
   { href: "#lokasi", label: "Lokasi" },
+  { href: "#faq", label: "FAQ" },
 ]
 
 export function Header() {
